@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+body, html{
+    background-size: cover ;
+    background-position: center;
+    /*display: grid;*/
+    height: 100%;
+    place-items: center;
+    display: block;
+
+}
+
+.home{
+    float: right;
+}
+
+.nav-bar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 1px 4px rgba(88, 89, 90, 0.15);
+    height: 65px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    text-align: center;
+
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #2a2929;
+    font-weight: bold;
+
+}
+
+
+.nav-link {
+    position: relative;
+    color: #2a2929;
+}
+
+.nav-link:hover {
+    position: relative;
+    color: #068474;
+    font-weight: bold;
+
+}
+
+.gameover{
+
+    margin-top: 50px;
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+.container-fluid{
+    margin: 50px;
+    width: 80%;
+    margin-left: 50px;
+}

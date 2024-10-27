@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [23/Mar/2024:16:17:12 +0000] "GET /DiceGame HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [23/Mar/2024:16:17:13 +0000] "GET /DiceGame/ HTTP/1.1" 200 169
+0:0:0:0:0:0:0:1 - - [23/Mar/2024:16:17:14 +0000] "GET /favicon.ico HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [23/Mar/2024:16:17:16 +0000] "GET /DiceGame/hello-servlet HTTP/1.1" 404 778
+0:0:0:0:0:0:0:1 - - [23/Mar/2024:16:17:29 +0000] "GET /DiceGame/UserManagementServlet HTTP/1.1" 404 781
